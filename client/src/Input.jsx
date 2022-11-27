@@ -31,38 +31,38 @@ const Input = () => {
         })
         .catch((error) => {
           console.log("Error in searching!", error.toString());
-          Swal.fire(`${error.response.err}`);
+          // Swal.fire(`${error.response.err}`);
         });
     }
   };
-  const handleSearchEnter = async (e) => {
-    if (e.key === "Enter" || e.keyCode === 13) {
-      e.preventDefault();
-      if (data === "") {
-        Swal.fire("Empty fields ?");
-      } else {
-        Axios({
-          method: "POST",
-          url: "http://localhost:5000/search",
-          headers: {
-            "Content-Type": "application/json;charset=utf-8",
-          },
-          data: { searchtext: inputData },
-        })
-          .then((response) => {
-            if (response.status === 200) {
-              setData(response.data.data);
-            }
-          })
-          .catch((error) => {
-            console.log("Error in searching!", error.toString());
-            Swal.fire(`${error.response.err}`);
-          });
-      }
-    }
-    return;
-  };
-  document.addEventListener("keydown", handleSearchEnter, true);
+  // const handleKeyDown = async (e) => {
+  //   if (e.key === "Enter" || e.keyCode === 13) {
+  // e.preventDefault();
+  //     if (inputData === "" || inputData.trim() === "") {
+  //       Swal.fire("Empty fields ?");
+  //     } else {
+  //       Axios({
+  //         method: "POST",
+  //         url: "http://localhost:5000/search",
+  //         headers: {
+  //           "Content-Type": "application/json;charset=utf-8",
+  //         },
+  //         data: { searchtext: inputData },
+  //       })
+  //         .then((response) => {
+  //           if (response.status === 200) {
+  //             setData(response.data.data);
+  //           }
+  //         })
+  //         .catch((error) => {
+  //           console.log("Error in searching!", error.toString());
+  //           // Swal.fire(`${error.response.err}`);
+  //         });
+  //     }
+  //   }
+  //   return;
+  // };
+  // document.addEventListener("keydown", handleSearchEnter, true);
 
   return (
     <>
@@ -73,6 +73,12 @@ const Input = () => {
           placeholder="Search"
           onChange={(e) => setInputData(e.target.value)}
           className="form-control"
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              handleSearch();
+            }
+          }}
         />
         <button onClick={handleSearch} className="btn btn-danger btn-lg mt-4">
           Search

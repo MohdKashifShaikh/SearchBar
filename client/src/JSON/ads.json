@@ -1,0 +1,58 @@
+[
+  {
+    "companyId": 3,
+    "primaryText": "The world’s leading CRM is ready to help you simplify the business part of your small business.",
+    "headline": "Salesforce for Small Business",
+    "description": "",
+    "CTA": "Sign Up",
+    "imageUrl": "https://blogs.perficient.com/files/Salesforce-emblem.jpg"
+  },
+  {
+    "companyId": "1",
+    "primaryText": "We like where you’re going with this.",
+    "headline": "Relaxed Fit Men's Jeans",
+    "description": "",
+    "CTA": "Shop Now",
+    "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fb86bc42-206f-4e36-9bc4-3276b0d74dd3/d2mmm1y-b3437807-5484-478e-b6fd-1b87f10c5072.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZiODZiYzQyLTIwNmYtNGUzNi05YmM0LTMyNzZiMGQ3NGRkM1wvZDJtbW0xeS1iMzQzNzgwNy01NDg0LTQ3OGUtYjZmZC0xYjg3ZjEwYzUwNzIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6K33aD_rkat867u2H4dH65vjKupZouYJ1C8-8cpr_IU"
+  },
+  {
+    "companyId": "6",
+    "primaryText": "Teva x Cotopaxi is back! Celebrate eternal summer with limited-edition Teva x Cotopaxi Original Universal sandals in bold new colors.",
+    "headline": "Made With Recycled Plastic",
+    "description": "Shop Back to School",
+    "CTA": "Shop Now",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnx6WReyRj8wlQg_EvpeszujHpDEl_CfFTgrjmAMHiEsEgaRPrdeYnsnBCdPfUCTm6jJc&usqp=CAU"
+  },
+  {
+    "companyId": "7",
+    "primaryText": "The Emmy-nominated Netflix comedy special from the late Norm Macdonald is his last gift to the world of comedy he helped shape.",
+    "headline": "Norm Macdonald's Nothing Special gives one last dose of the late comic",
+    "description": "Shop Back to School",
+    "CTA": "Learn More",
+    "imageUrl": "https://m.media-amazon.com/images/I/51xdU+1A-XL._SL500_.jpg"
+  },
+  {
+    "companyId": "9",
+    "primaryText": "Visit Valentino.com, discover the new products and shop now!",
+    "headline": "Valentino Hexagonal Metal Frame With Crystal Studs",
+    "description": "",
+    "CTA": "Shop Now",
+    "imageUrl": "https://www.retag.in/pub/media/brands/images/valentino-garavani.png"
+  },
+  {
+    "companyId": "11",
+    "primaryText": "Say ‘goodnight’ to sleeping hot 🔥 with Purple products—designed to dissipate heat.",
+    "headline": "Cooler Summers Start Here",
+    "description": "Shop Purple products, designed to help you sleep cool.",
+    "CTA": "Shop Now",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0898/4708/articles/prp4_1.jpg?v=1540519075"
+  },
+  {
+    "companyId": "10",
+    "primaryText": "Dark spots. Breakouts. Rosacea. Dull skin. Fine lines. Our formulas are custom-mixed for YOUR skin concerns.",
+    "headline": "Personalized skincare for dark spots, acne, and more.",
+    "description": "Personalized skincare for dark spots, acne, and more. Results may vary.",
+    "CTA": "Order Now",
+    "imageUrl": "https://cdn-images-1.medium.com/max/1200/1*DYJ-RwhiMwkgNr9MMoCQsQ.jpeg"
+  }
+]

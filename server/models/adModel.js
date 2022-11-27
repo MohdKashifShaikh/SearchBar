@@ -3,11 +3,12 @@ const { Schema, model } = require("mongoose");
 const adSchema = new Schema(
   {
     _id: {
-      type: Number,
+      type: Schema.Types.ObjectId,
     },
     companyId: {
-      type: String,
+      type: Schema.Types.ObjectId,
       required: true,
+      ref: "company",
     },
     primaryText: {
       type: String,
